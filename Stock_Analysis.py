@@ -16,7 +16,7 @@ def fetch_stock_data(symbol, api_key, start_date, end_date):
         'interval': '1day',  # Daily interval
         'start_date': start_date,  # Start date for historical data
         'end_date': end_date,  # End date for historical data
-        'apikey': api_key,  # Your Twelve Data API key
+        'apikey': api_key,  # Twelve Data API key
         'format': 'json'  # Data format
     }
     
@@ -129,7 +129,7 @@ if __name__ == "__main__":
     start_date = datetime.strptime(start_date, "%m/%d/%Y").strftime("%Y-%m-%d")
     end_date = datetime.strptime(end_date, "%m/%d/%Y").strftime("%Y-%m-%d")
 
-    api_key = '55ad01567d1d4b1f97c28e100a6ced31'  # Replace 'your_api_key_here' with your actual API key
+    api_key = '55ad01567d1d4b1f97c28e100a6ced31' 
     include_ema = input("Include EMA line? (yes/no): ").strip().lower() == 'yes'
     include_rsi = input("Include RSI line? (yes/no): ").strip().lower() == 'yes'
     include_macd = input("Include MACD line? (yes/no): ").strip().lower() == 'yes'
