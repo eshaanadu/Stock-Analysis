@@ -1,4 +1,4 @@
-# Stock-Analysis Project
+# Stock-Analysis Project 
 
 # Overview
 This project provides a Python script that fetches historical stock prices from the Twelve Data API, calculates various technical indicators such as SMA, EMA, RSI, and MACD, and visualizes the results. Users can generate detailed stock analysis charts and summaries, aiding in better investment decisions and market trend evaluations.
